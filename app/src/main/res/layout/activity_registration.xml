@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".authentication.RegistrationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/mob_no"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:maxLines="1"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/mob_no"
+            android:id="@+id/pass">
+            <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                android:id="@+id/password_edit_Text"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:hint="Password"
+                app:drawable_hide="@drawable/edittext_hide_eye_icon"
+                app:drawable_show="@drawable/edittext_show_eye_icon"
+                app:tint_color="#ff00" />
+        </android.support.design.widget.TextInputLayout>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:hint="Name"
+            android:id="@+id/name"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/pass"
+            android:lines="1"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:hint="Address"
+            android:id="@+id/address"
+            android:layout_below="@+id/name"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Register"
+            android:textSize="25sp"
+            android:layout_below="@+id/address"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/submit_btn"
+            />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Smart Bazzar</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+
+    <string name="search_hint">Search for Products, Brands and More</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="contact_us">akrurborah@outlook.com</string>
+    <string name="Rs">\u20B9</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.aec.smartbazzar.authentication.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_login_image"
+            android:id="@+id/login_img"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/ph_number"
+            android:hint="Phone Number"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/login_img"
+            android:layout_marginTop="20dp"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:maxLines="1" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/ph_number"
+            android:id="@+id/password">
+            <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                android:id="@+id/password_edit_Text"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                app:drawable_hide="@drawable/edittext_hide_eye_icon"
+                app:drawable_show="@drawable/edittext_show_eye_icon"
+                app:tint_color="#ff00" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/login"
+            android:text="Login"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/password"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffff"
+            android:background="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Create New Account"
+            android:textStyle="bold"
+            android:id="@+id/new_acc"
+            android:layout_below="@id/login"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

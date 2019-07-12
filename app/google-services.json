@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "738301743121",
+    "firebase_url": "https://smart-bazaar-4e266.firebaseio.com",
+    "project_id": "smart-bazaar-4e266",
+    "storage_bucket": "smart-bazaar-4e266.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738301743121:android:1e1038a16c6f1da8",
+        "android_client_info": {
+          "package_name": "com.aec.smartbazzar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738301743121-j39ef2ejga4e2pmf9d15b3j3bv4b9n8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7vkWmeNmGV7xS5FsdBLRAEmELOrq_ME0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
